@@ -1,0 +1,5 @@
+[
+  { "nombre": "Corona", "tipo": "Lager" },
+  { "nombre": "Guinness", "tipo": "Stout" },
+  { "nombre": "Heineken", "tipo": "Lager" }
+]

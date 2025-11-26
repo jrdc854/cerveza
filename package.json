@@ -1,0 +1,15 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "jordi <pepe@gmail.com> (http://pepe.com/)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "unique-random-array": "4.0.0"
+  }
+}

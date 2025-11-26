@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "20"  # la versión de Node que estés usando
+  - "18"  # la versión de Node que estés usando
 install:
   - npm install
 script:

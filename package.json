@@ -1,15 +1,31 @@
 {
-  "name": "index.js",
-  "version": "1.0.0",
+  "name": "cervezas-jrdc854",
+  "version": "0.0.0-development",
   "description": "",
   "license": "MIT",
   "author": "jordi <pepe@gmail.com> (http://pepe.com/)",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
+    "lodash": "4.17.21",
     "unique-random-array": "4.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "latest",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "12.0.2",
+    "@semantic-release/npm": "13.1.2",
+    "chai": "6.2.1",
+    "mocha": "11.7.5",
+    "semantic-release": "^25.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrdc854/cerveza.git"
   }
 }

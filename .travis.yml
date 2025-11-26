@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "20"  # la versión de Node que estés usando
+install:
+  - npm install
+script:
+  - npm test
+after_success:
+  - npx semantic-release
+cache:
+  - npm: true

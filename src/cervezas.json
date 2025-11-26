@@ -1,5 +1,5 @@
 [
   { "nombre": "Corona", "tipo": "Lager" },
-  { "nombre": "Guinness", "tipo": "Stout" },
-  { "nombre": "Heineken", "tipo": "Lager" }
+  { "nombre": "Heineken", "tipo": "Pale Ale" },
+  { "nombre": "ÁMBAR ESPECIAL", "tipo": "Amber Ale" }
 ]
